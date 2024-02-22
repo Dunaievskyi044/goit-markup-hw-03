@@ -172,14 +172,11 @@ address {
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-right: 472px;
-  padding-bottom: 492px;
-  padding-left: 472px;
+  padding: 188px 0;
 }
 
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -232,6 +229,7 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
 .benefits-list {
@@ -341,6 +339,7 @@ address {
 
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo-link {
